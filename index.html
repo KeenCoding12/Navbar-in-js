@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navbar in HTML,CSS and Javascript</title>
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- REMIX ICON -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <!-- HEADER -->
+     <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Logo</a>
+            <nav class="navbar">
+                <button class="close-menu" id="nav-toggle">
+                    <i class="ri-close-large-line"></i>
+                </button>
+
+                <ul>
+                    <li><a href="#home" class="link">home</a></li>
+                    <li><a href="#about" class="link">about</a></li>
+                    <li><a href="#services" class="link">services</a></li>
+                    <li><a href="#price" class="link">price</a></li>
+                    <li><a href="#contact" class="link">contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="open-menu" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </button>
+
+            <div class="overlay" id="nav-toggle"></div>
+        </div>
+     </header>
+
+    <!-- CUSTOM JS LINK -->
+     <script src="./app.js"></script>
+</body>
+</html>
